@@ -7,8 +7,6 @@
 #SBATCH -q public       # QOS
 #SBATCH -o slurm.%A_%a.txt # file to save job's STDOUT & STDERR
 #SBATCH --export=NONE   # Purge the job-submitting shell environment
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-user=tianche5@asu.edu
 
 
 # e.g. parallel -k echo {} ::: $(seq 1 50) ::: RF XGB ::: all CN_CP NN_CP ::: none smote adasyn > manifest_general
