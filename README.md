@@ -4,7 +4,9 @@ This is a binary classification workflow for microbiome dataset, using SHAP valu
 
 The scripts are designed to run parallelly on supercomputer clusters using Slurm.
 
-Models and algorithms: CatBoost, XGBoost, lightGBM, MLP from Scikit-Learn, SHAP, T-SNE.
+Models and algorithms used: 
+
+CatBoost, XGBoost, lightGBM, MLP from Scikit-Learn, SHAP, T-SNE.
 
 This work has been published in:
 
