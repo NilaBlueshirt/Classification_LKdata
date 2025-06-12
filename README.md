@@ -1,12 +1,8 @@
 # Classification_LKdata
 
-This is a binary classification workflow for microbiome dataset, using SHAP values to explain the model and find the most important microbiome features.
+This is a binary classification workflow for microbiome dataset, using SHAP values to explain the model and find the most important microbiome features. The scripts are designed to run parallelly on supercomputer clusters using Slurm.
 
-The scripts are designed to run parallelly on supercomputer clusters using Slurm.
-
-Models and algorithms used: 
-
-CatBoost, XGBoost, lightGBM, MLP from Scikit-Learn, SHAP, T-SNE.
+Models and algorithms used: CatBoost, XGBoost, lightGBM, MLP from Scikit-Learn, SHAP, T-SNE.
 
 This work has been published in:
 
